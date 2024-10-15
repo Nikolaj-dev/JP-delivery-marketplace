@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "jp-delivery-marketplace"
+version = "0.1.0"
+description = "FastAPI-based application for delivering goods from Japan to Kazakhstan. It includes features like order management, delivery tracking, and payment integration."
+authors = ["Nikolaj-dev <nikolaypetrichshev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-json-logger = "^2.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
